@@ -14,13 +14,13 @@ Gradle
 
 Into your app build.gradle:
 
-repositories {
-  maven { url "https://jitpack.io" }
-}
+	repositories {
+	  maven { url "https://jitpack.io" }
+	}
 
-dependencies {
-  compile 'com.github.Pierry:Progress:1.0'
-}
+	dependencies {
+	  compile 'com.github.Pierry:Progress:1.0'
+	}
 
 Ref. https://jitpack.io/#Pierry/Progress/1.0
 
