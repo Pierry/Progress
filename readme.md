@@ -1,3 +1,79 @@
-## A New Post
+Progress
+=====
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Versão 1.0
+SDK Min: 21
+
+![](https://raw.githubusercontent.com/Pierry/Progress/master/art/custom.png)
+![](https://raw.githubusercontent.com/Pierry/Progress/master/art/dark.png)
+![](https://raw.githubusercontent.com/Pierry/Progress/master/art/light.png)
+
+
+Gradle
+====
+
+Into your app build.gradle:
+
+repositories {
+  maven { url "https://jitpack.io" }
+}
+
+dependencies {
+  compile 'com.github.Pierry:Progress:1.0'
+}
+
+Ref. https://jitpack.io/#Pierry/Progress/1.0
+
+
+Usage
+=====
+
+The API is kept as simple as the ProgressDialog(Deprecated):
+
+Create a Progress:
+
+		Progress progress = new Progress(view.getContext());
+
+Default light:
+
+		progress.light(CharSequence);
+                
+Default dark:
+
+		progress.dark(CharSequence);
+                
+Customize it:
+
+		progress.setBackgroundColor(getResources().getColor(R.color.your_color))
+        .setMessage(CharSequence)
+		.setMessageColor(getResources().getColor(R.color.message_color))
+        .setProgressColor(getResources().getColor(R.color.progress_color))
+        .show();
+        
+Methods:
+
+		progress.dark(String message); // set dark theme
+        progress.light(String message); // set light theme
+		progress.setBackgroundDrawable(Drawable drawable); // set Background layout
+        progress.setBackgroundColor(getResources().getColor(R.color.your_color)); // set Background color
+        progress.setProgressColor(getResources().getColor(R.color.your_color)); // set ProgressBar color
+        progress.setMessageColor(getResources().getColor(R.color.your_color)); // set Message color
+        progress.show(); // show ProgressBar
+        progress.dismiss(); //dismiss ProgressBar
+        
+
+
+Questions
+=====
+
+Questions regarding Progress can be asked on StackOverflow, using the Progress tag.
+
+Developed By
+======
+
+Pierry Borges - http://pierry.github.io - pieerry@gmail.com
+
+License
+=====
+
+Apache Version 2.0
