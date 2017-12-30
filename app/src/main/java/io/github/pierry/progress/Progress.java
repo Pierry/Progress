@@ -51,7 +51,7 @@ public class Progress {
 
   public Progress setBackgroundDrawable(Drawable drawable) {
     ll.setBackgroundDrawable(drawable);
-    ll.setPadding(30,30,30,30);
+    ll.setPadding(30, 30, 30, 30);
     return this;
   }
 
