@@ -45,16 +45,16 @@ Default dark:
 Customize it:
 
 	progress.setBackgroundColor(getResources().getColor(R.color.your_color))
-        .setMessage(CharSequence)
-	.setMessageColor(getResources().getColor(R.color.message_color))
-        .setProgressColor(getResources().getColor(R.color.progress_color))
-        .show();
+          .setMessage(CharSequence)
+	      .setMessageColor(getResources().getColor(R.color.message_color))
+          .setProgressColor(getResources().getColor(R.color.progress_color))
+	      .show();
         
 Methods:
 
 	progress.dark(String message); // set dark theme
         progress.light(String message); // set light theme
-	progress.setBackgroundDrawable(Drawable drawable); // set Background layout
+	    progress.setBackgroundDrawable(Drawable drawable); // set Background layout
         progress.setBackgroundColor(getResources().getColor(R.color.your_color)); // set Background color
         progress.setProgressColor(getResources().getColor(R.color.your_color)); // set ProgressBar color
         progress.setMessageColor(getResources().getColor(R.color.your_color)); // set Message color
