@@ -52,7 +52,7 @@ Customize it:
         
 Methods:
 
-	progress.dark(String message); // set dark theme
+	    progress.dark(String message); // set dark theme
         progress.light(String message); // set light theme
 	    progress.setBackgroundDrawable(Drawable drawable); // set Background layout
         progress.setBackgroundColor(getResources().getColor(R.color.your_color)); // set Background color
