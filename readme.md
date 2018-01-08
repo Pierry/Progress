@@ -1,7 +1,7 @@
 Progress
 =====
 
-- Versão 1.0
+- Versão 1.1
 - SDK Min: 21
 
 ![](https://raw.githubusercontent.com/Pierry/Progress/master/art/custom.png)
@@ -19,10 +19,10 @@ Into your app build.gradle:
 	}
 
 	dependencies {
-	  compile 'com.github.Pierry:Progress:1.0'
+	  compile 'com.github.Pierry:Progress:1.1'
 	}
 
-Ref. https://jitpack.io/#Pierry/Progress/1.0
+Ref. https://jitpack.io/#Pierry/Progress/1.1
 
 
 Usage
