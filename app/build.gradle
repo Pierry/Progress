@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'checkstyle'
 
 dependencies {
-  implementation 'com.android.support:appcompat-v7:27.0.0'
+  implementation 'com.android.support:appcompat-v7:28.0.0'
 }
 
 android {
