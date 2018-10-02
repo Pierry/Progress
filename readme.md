@@ -32,7 +32,7 @@ The API is kept as simple as the ProgressDialog(Deprecated):
 
 Create a Progress:
 
-	Progress progress = new Progress(view.getContext());
+	Progress progress = new Progress(context);
 
 Default light:
 
