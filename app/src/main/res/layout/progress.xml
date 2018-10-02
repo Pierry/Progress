@@ -1,6 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
-    android:padding="@dimen/padding_default"
+    android:padding="@dimen/pp_padding_default"
     android:layout_centerHorizontal="true"
     android:layout_width="wrap_content"
     android:id="@+id/ll"
@@ -8,14 +8,14 @@
 
   <ProgressBar
       android:id="@+id/loader"
-      android:layout_marginEnd="@dimen/margin_end"
-      android:layout_width="@dimen/loader_size"
-      android:layout_height="@dimen/loader_size"/>
+      android:layout_marginEnd="@dimen/pp_margin_end"
+      android:layout_width="@dimen/pp_loader_size"
+      android:layout_height="@dimen/pp_loader_size"/>
   <TextView
       android:layout_width="wrap_content"
       android:textAppearance="?android:textAppearanceSmall"
       android:layout_gravity="center_vertical"
-      android:layout_marginLeft="@dimen/margin_default"
+      android:layout_marginLeft="@dimen/pp_margin_default"
       android:id="@+id/msg"
       android:layout_toEndOf="@+id/loader"
       android:layout_height="wrap_content"/>
