@@ -14,12 +14,28 @@ Gradle
 
 Into your app build.gradle:
 
-	repositories {
-	  maven { url "https://jitpack.io" }
+Ensure you add the maven { url "https://jitpack.io" } under allprojects instead of buildscript.
+
+	buildscript {
+	  repositories {
+	    jcenter()
+	    // DO NOT ADD IT HERE!!!
+	  }
+	  ...
 	}
 
+	allprojects {
+ 	  repositories {
+	    mavenLocal()
+	    jcenter()
+	    // ADD IT HERE
+	    maven { url "https://jitpack.io" }
+	  }
+	}
+
+
 	dependencies {
-	  compile 'com.github.Pierry:Progress:1.1'
+	  implementation 'com.github.Pierry:Progress:1.0'
 	}
 
 Ref. https://jitpack.io/#Pierry/Progress/1.1
