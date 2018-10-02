@@ -26,7 +26,7 @@ public class Progress {
     init();
   }
 
-  void init() {
+  private void init() {
     msg = (TextView) view.findViewById(R.id.msg);
     progressBar = ((ProgressBar) view.findViewById(R.id.loader));
     ll = ((LinearLayout) view.findViewById(R.id.ll));
