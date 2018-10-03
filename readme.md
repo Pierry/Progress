@@ -1,7 +1,7 @@
 Progress
 =====
 
-- Versão 1.1
+- Versão 1.5
 - SDK Min: 21
 
 ![](https://raw.githubusercontent.com/Pierry/Progress/master/art/custom.png)
@@ -35,10 +35,10 @@ Ensure you add the maven { url "https://jitpack.io" } under allprojects instead 
 
 
 	dependencies {
-	  implementation 'com.github.Pierry:Progress:1.0'
+	  implementation 'com.github.Pierry:Progress:1.5'
 	}
 
-Ref. https://jitpack.io/#Pierry/Progress/1.1
+Ref. https://jitpack.io/#Pierry/Progress/1.5
 
 
 Usage
